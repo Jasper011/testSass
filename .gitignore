@@ -7,8 +7,10 @@ package-lock.json
 *.log
 out/
 dist/
+build/
 node_modules/
 coverage/
 dist
+buil
 src/firebase.js
 .cache

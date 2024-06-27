@@ -4,13 +4,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "sass": "node-sass sass/ -o build/css/"
+    "sass": "node-sass src/sass/ -o build/css/"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "fs-extra": "^11.2.0",
     "node-sass": "^9.0.0",
-    "webpack": "^5.92.1"
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
   }
 }
